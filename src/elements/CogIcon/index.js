@@ -18,7 +18,7 @@ const SPEED_MAP = {
 };
 
 const CogIcon = styled.span.attrs({
-  className: 'ix-cog',
+  className: 'ix ix-cog',
   'aria-label': 'spinning cog icon'
 })`
   animation: ${props => SPEED_MAP[props.speed]}ms ${spin} linear infinite;

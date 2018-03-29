@@ -1,5 +1,3 @@
-import Icon from './Icon';
+import CogIcon from './CogIcon';
 
-export {
-  Icon,
-};
+export { CogIcon };

@@ -14,11 +14,11 @@ const SPEED_MAP = {
   off: 0,
   slow: 10000,
   med: 1000,
-  fast: 100,
+  fast: 100
 };
 
-const Icon = styled.span.attrs({
-  className: props => `ix-${props.name}`,
+const CogIcon = styled.span.attrs({
+  className: 'ix ix-cog'
 })`
   animation: ${props => SPEED_MAP[props.speed]}ms ${spin} linear infinite;
   display: inline-block;
@@ -28,8 +28,8 @@ const Icon = styled.span.attrs({
   }
 `;
 
-Icon.defaultProps = {
-  speed: 'off',
-}
+CogIcon.defaultProps = {
+  speed: 'off'
+};
 
-export default Icon;
+export default CogIcon;

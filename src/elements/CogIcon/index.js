@@ -25,9 +25,14 @@ const CogIcon = styled.span.attrs({
   display: inline-block;
   font-size: 144px;
   margin: 8px;
+  transition: font-size 200ms ease;
 
   &:before {
     color: ${props => props.theme.colors.chrome600};
+  }
+
+  @media (max-width: 700px) {
+    font-size: 64px;
   }
 `;
 

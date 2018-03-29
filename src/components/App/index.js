@@ -14,7 +14,9 @@ function App() {
       <CogSpinner>
         <CogSpinner.Icon />
         <CogSpinner.ButtonGroup>
-          <CogSpinner.Button name="off">Off</CogSpinner.Button>
+          <CogSpinner.Button name="off" bgColor="deepPurple">
+            Off
+          </CogSpinner.Button>
           <CogSpinner.Button name="slow">slow</CogSpinner.Button>
         </CogSpinner.ButtonGroup>
       </CogSpinner>
@@ -24,13 +26,13 @@ function App() {
           <CogSpinner.Icon />
         </Row>
         <CogSpinner.ButtonGroup>
-          <CogSpinner.Button name="off" bgColor="red">
+          <CogSpinner.Button name="off" bgColor="deepPurple">
             Off
           </CogSpinner.Button>
-          <CogSpinner.Button name="med" bgColor="orange">
+          <CogSpinner.Button name="med" bgColor="green">
             med
           </CogSpinner.Button>
-          <CogSpinner.Button name="fast" bgColor="green">
+          <CogSpinner.Button name="fast" bgColor="red">
             fast
           </CogSpinner.Button>
         </CogSpinner.ButtonGroup>
@@ -48,7 +50,7 @@ function App() {
           <CogSpinner.Button name="slow" bgColor="blue">
             slow
           </CogSpinner.Button>
-          <CogSpinner.Button name="med" bgColor="orange">
+          <CogSpinner.Button name="med" bgColor="green">
             med
           </CogSpinner.Button>
           <CogSpinner.Button name="fast" bgColor="red">
